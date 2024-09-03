@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import './Services.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import Services_Data from '../../assets/services_data';
@@ -28,4 +28,38 @@ const Services=() =>{
        </div>
     )
 }
+export default Services; */
+
+import React from 'react';
+import './Services.css';
+import Services_Data from '../../services_data';
+
+const Services = () => {
+    return (
+        <div id='services' className='services'>
+            <div className="services-title">
+                <h1>MY SERVICES</h1>
+                {/* Correct path from public folder */}
+                <img src="/assets/theme_pattern.svg" alt="Theme Pattern" />
+            </div>
+            <div className="services-container">
+                {Services_Data.map((service, index) => {
+                    return (
+                        <div key={index} className='services-format'>
+                            <h3>{service.s_no}</h3>
+                            <h2>{service.s_name}</h2>
+                            <p>{service.s_desc}</p>
+                            <div className='services-readmore'>
+                                <p>Read More</p>
+                                {/* Correct path from public folder */}
+                                <img src="/assets/arrow_icon.svg" alt="Arrow Icon" />
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
+    )
+}
+
 export default Services;
