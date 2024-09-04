@@ -55,6 +55,9 @@ const MyWork = () => {
 }
 
 export default MyWork;*/
+
+
+
 import React from 'react';
 import './MyWork.css';
 import mywork_data from '../../mywork_data';
@@ -67,19 +70,26 @@ const MyWork = () => {
                 <img src="/assets/theme_pattern.svg" alt="Theme Pattern" />
             </div>
 
-            {/* <div className="mywork-container">
-                {mywork_data.map((work, index) => (
-                    <div key={index} className="work-item">
-                        <img src={work.w_img} alt={work.w_name} />
-                        <p>{work.w_name}</p>
-                    </div>
-                ))}
-            </div>*/}
-            <div className='mywork-container'>
-            <a href="https://github.com/Kalpna123-rana/ecommerce-app" target="_blank" rel="noopener noreferrer">
-        <img src='public/project1_img.png' alt='Portfolio' />
-    </a>  
-            </div>
+          
+          
+          <div className='mywork-container'>
+  {mywork_data.map((work, index) => (
+    <a 
+      key={index} 
+      href={work.w_link} 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      <div className="work-item">
+        <img src={work.w_img} alt={work.w_name} />
+        <p>{work.w_name}</p>
+      </div>
+    </a>
+  ))}
+</div>
+
+         
+
 
             <div className="mywork-showmore">
                 <p>Show More</p>

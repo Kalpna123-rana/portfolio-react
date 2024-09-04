@@ -27,7 +27,7 @@
 }
 .about-left img{
    margin-top: 30px;
-   height: auto;
+   height: 200px;
 
 }
 .about-right{
@@ -120,7 +120,9 @@
         flex-direction: column;
        }
        .about-left{
-        display: none;
+        display:flex;
+        width: auto;
+        
 
        }
        .about-para{

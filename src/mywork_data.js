@@ -6,7 +6,7 @@ import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'*/
 
-/* const mywork_data = [
+ /*const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
@@ -43,13 +43,15 @@ export default mywork_data;*/
         w_img:project6_img
     },  */
 
-    const mywork_data = [
+   /* const mywork_data = [
         {
             w_no: 1,
-            w_name: "Web design",
-            w_img: "assets/images/project1.png" // Example path, adjust as necessary
+            w_name: "E-commerce-project",
+            w_img: "project1_img ",
+            w_link:"https://github.com/codewithzosh/ecommerce-products-data"
+         // Example path, adjust as necessary
         },
-      /*  {
+       {
             w_no: 2,
             w_name: "Web design",
             w_img: "/assets/images/project2.png"
@@ -68,8 +70,19 @@ export default mywork_data;*/
             w_no: 5,
             w_name: "Web design",
             w_img: "/assets/images/project5.png"
-        },*/
+        },
     ];
     
-    export default mywork_data;
+    export default mywork_data; */
     
+    const mywork_data = [
+        {
+            w_no: 1,
+            w_name: "E-commerce-project",
+            w_img: " public/project1_img.png",
+            w_link:"https://github.com/codewithzosh/ecommerce-products-data"
+         
+        },
+    ];
+    
+    export default mywork_data; 

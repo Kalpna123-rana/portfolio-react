@@ -27,7 +27,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Hero = () => {
     return (
         <div id='home' className='hero'>
-            <img src="/assets/profile-user-svgrepo-com (1).svg" alt="User" />
+            <img src="public/assets/profile-user-svgrepo-com (1).svg" alt="User" />
 
             <h1><span>I'm Kalpna Rana,</span> frontend developer based in India.</h1>
             <p>I am a frontend developer from India, Himachal Pradesh, and want to work as a Fresher in this profession.</p>
