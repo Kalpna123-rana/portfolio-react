@@ -3,13 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  margin: 80px 170px;  
+  gap: 60px;
+  margin: 70px 170px;  
 }
+
 .about-title{
     position: relative;
-
 }
+
 .about-title h1{
     padding: 0px;
     font-size: 80px;
@@ -23,7 +24,8 @@
 }
 .about-sections{
     display: flex;
-    gap: 80px;
+   
+    gap: 50px;
 }
 .about-left img{
    margin-top: 30px;
@@ -43,21 +45,26 @@
     font-size: 24px;
     font-weight: 500px;
 }
+.about-para p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
 .about-skills{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 .about-skill{
     display: flex;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
     transition: 0.3s;
 }
 .about-skill p{
-    min-width: 150px;
-    font-size: 24px;
-    font-weight: 500px;
+    min-width: 130px;
+    font-size: 22px;
+   
 }
 .about-skill hr{
     outline: none;
@@ -67,11 +74,16 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415fF 106.28%);
 }
+.about-skill hr{
+    height: 6px;
+}
 .about-achievements{
     display:flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 80px;
+   
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .about-achievement{
     display: flex;
@@ -79,18 +91,20 @@
     align-items: center;
     gap: 10px;
     transition: 0.5s;
+    width: 100%;
+    max-width: 150px;
 }
 .about-achievement h1{
-     font-size: 60px;
-     font-weight: 60px;
+     font-size: 50px;
+     
      background: linear-gradient(270deg, #DF8908 50.41%, #B415fF 90.25%);
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
 .about-achievement p{
-    font-size: 22px;
-    font-weight: 500px;
+    font-size: 20px;
+    
 
 }
 .about-skill:hover{
@@ -106,7 +120,7 @@
         .about{
             gap: 80px;
             margin: 50px 60px;
-            align-items: start;
+            
         }
         .about-title h1{
             font-size: 50px;
@@ -118,6 +132,8 @@
        }
        .about-sections{
         flex-direction: column;
+        align-items: center;
+        
        }
        .about-left{
         display:flex;
@@ -135,7 +151,7 @@
         align-items: center;
        }
        .about-skill p{
-        font-size: 20px;
+        font-size: 16px;
        }
        .about-skill hr{
         height: 6px;
@@ -150,6 +166,7 @@
        .about-achievement h1{
           font-size: 34px;
           font-weight: 700;
+         
        }
        .about-achievement p{
         text-align: center;
@@ -157,3 +174,4 @@
        }
 
 }
+

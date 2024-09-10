@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className="footer-top-left">
                     <img src="/assets/icons8-logo-48.png" alt="Logo" />
                     <p>
-                        I am a frontend developer from India, Himachal Pradesh, district Kangra, tehsil Kundian, Pincode 176055, and a fresher to this field.
+                        I am a frontend developer from India, Himachal Pradesh, district Kangra, and a fresher to this field.
                     </p>
                 </div>
                 <div className="footer-top-right">
